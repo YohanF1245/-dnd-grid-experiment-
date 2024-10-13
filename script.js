@@ -1,8 +1,13 @@
-let gridSize = 40;
-let color = "red";
+let gridSize = 16;
 function setGridSize() {
     gridSize = document.getElementById("gridSize").value;
+    load();
 }
+function load() {
+    document.getElementById("root").innerHTML = "";
+    
+let color = "red";
+
 
 let cellSize = window.innerWidth/gridSize;
 
@@ -26,3 +31,4 @@ cases.forEach((el) => {
         document.getElementById(id).style.backgroundColor = color;
     })
 })
+}
