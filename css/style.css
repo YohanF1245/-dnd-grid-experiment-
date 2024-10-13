@@ -1,0 +1,8 @@
+.case:hover{
+    background-color: lightblue;
+}
+#root{
+    font-size: 0;
+    background-image: url("../img/forest.jpeg");
+    background-size: cover;
+}
