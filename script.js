@@ -8,7 +8,6 @@ function load() {
     
 let color = "red";
 
-
 let cellSize = window.innerWidth/gridSize;
 
 for (let i=0; i<gridSize; i++) {
